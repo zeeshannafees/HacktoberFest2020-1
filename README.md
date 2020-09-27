@@ -1,6 +1,6 @@
 # HacktoberFest2020
-Contribute for hacktoberfest 2020
-----
+#### Contribute to hacktoberfest 2020
+
 Welcome to HacktoberFest 2020 Public Repository.
 -----
 
