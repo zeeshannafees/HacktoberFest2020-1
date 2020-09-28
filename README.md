@@ -18,7 +18,7 @@ https://hacktoberfest.digitalocean.com/</p>
 ```markdown
 git clone https://github.com/your-username/HacktoberFest2020.git
 ```
-* Pick a project
+* Pick a project or make a new one
 * Make a new branch
 ```markdown
 git checkout -b branch-name
