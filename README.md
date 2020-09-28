@@ -24,7 +24,10 @@ git clone https://github.com/your-username/HacktoberFest2020.git
 git checkout -b branch-name
 ```
 * Make change in the repository with the new branch.
-* Add your name to the CONTRIBUTORS.md file
+* Add this to the CONTRIBUTORS.md file
+```markdown
+<td align="center"><a href="YOUR_WEBSITE"><img src="YOUR_PICTURE" width="100px;" alt=""/><br /><sub><b>Your NAME</b></sub></a><br /></td>
+```
 * push the changes.
 ```markdown
 git add .
