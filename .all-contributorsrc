@@ -6,12 +6,79 @@
   "commit": false,
   "contributors": [
     {
+      "login": "Rishikesh-12",
+      "name": "Rishikesh Mishra",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54947439?s=400&u=db1c8d20adbb31328a878cc95e6467135b9ad144&v=4",
+      "profile": "https://www.linkedin.com/in/rishikesh-mishra-b98a20156/",
+      "contributions": [
+        "code",
+        "Answering Questions",
+        "Managing Requests"
+      ]
+    },
+    {
+      "login": "navneetsn18",
+      "name": "Navneet Singh Negi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/33743031?s=460&u=072e69daaf8006ebc77d7b5c03ac14124e1d25a6&v=4",
+      "profile": "https://www.linkedin.com/in/navneetsn18/",
+      "contributions": [
+        "code",
+        "Answering Questions",
+        "Managing Requests"
+      ]
+    },
+    {
       "login": "navneetsn1809",
       "name": "navneetsn1809",
       "avatar_url": "https://avatars2.githubusercontent.com/u/71883812?v=4",
       "profile": "https://github.com/navneetsn1809",
       "contributions": [
         "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "Pranav016",
+      "name": "Pranav",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54665036?v=4",
+      "profile": "https://www.linkedin.com/in/pranav-mendiratta-89713a173/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "prithvirajbytes",
+      "name": "Prithviraj Biswas",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55537197?v=4",
+      "profile": "https://prithvirajbiswas.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "piyushxbajaj",
+      "name": "Piyush",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40456093?v=4",
+      "profile": "http://piyushxbajaj.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "deadline007",
+      "name": "deadline007",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/66679154?v=4",
+      "profile": "https://github.com/deadline007",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ravikr126",
+      "name": "Ravi Kumar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/53082978?v=4",
+      "profile": "https://github.com/ravikr126",
+      "contributions": [
         "code"
       ]
     }
