@@ -12,7 +12,7 @@ public class Calculator {
         double first = reader.nextDouble();
         //double second = reader.nextDouble();
 
-        System.out.print("Enter an operator (+, -, *, /): ");
+        System.out.print("Enter an operator (+, -, *, /, %): ");
         char operator = reader.next().charAt(0);
 
         double result;
@@ -34,6 +34,9 @@ public class Calculator {
             case '/':
                 result = first / second;
                 break;
+            
+            case '%':
+                result = first % second;
 
             // operator doesn't match any case constant (+, -, *, /)
             default:
