@@ -31,10 +31,6 @@ cd HactoberFest2020
 git checkout -b branch-name
 ```
 * Make change in the repository with the new branch.
-* Replace this with your details in CONTRIBUTORS.md file
-```markdown
-<td align="center"><a href="YOUR_WEBSITE"><img src="YOUR_PICTURE" width="100px;" alt=""/><br /><sub><b>Your NAME</b></sub></a><br /></td>
-```
 * push the changes.
 ```markdown
 git add .
@@ -43,6 +39,10 @@ git push origin brach-name
 ```
 * Make a pull request.
 
+* You are almost there, now it time for you to be on our contributors page. Just find your pull request and comment the below message by relacing <username> with your name and <contributors> with the type of contribution. You can find the contribution type [here](https://allcontributors.org/docs/en/emoji-key)
+```markdown
+   @all-contributors please add <username> for <contributions>
+```
 
 Checkout [The Wall Of Contributions](https://github.com/Rishikesh-12/HacktoberFest2020/blob/master/CONTRIBUTORS.md)
 
