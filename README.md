@@ -9,9 +9,10 @@ https://hacktoberfest.digitalocean.com/</p>
 -----
 
 ### Process are as follows :- 
+-----
 * Login using github @ [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 * Create four valid pull requests (PRs) between 1st - 31st October
-
+   
 ### How to Contribute to this repository
 * Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
 * Clone the forked repository to your local machine.
