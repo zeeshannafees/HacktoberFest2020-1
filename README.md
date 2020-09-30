@@ -44,9 +44,7 @@ git push origin brach-name
    @all-contributors please add @<username> for <contributions>
 ```
 
-Checkout [The Wall Of Contributions](https://github.com/Rishikesh-12/HacktoberFest2020/blob/master/CONTRIBUTORS.md)
-
-## Contributors ✨
+## The Wall of Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
