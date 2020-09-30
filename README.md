@@ -1,4 +1,7 @@
 # HacktoberFest2020
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
 
 ### Welcome to HacktoberFest 2020 Public Repository.
@@ -42,3 +45,22 @@ git push origin brach-name
 
 
 Checkout [The Wall Of Contributions](https://github.com/Rishikesh-12/HacktoberFest2020/blob/master/CONTRIBUTORS.md)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/navneetsn1809"><img src="https://avatars2.githubusercontent.com/u/71883812?v=4" width="100px;" alt=""/><br /><sub><b>navneetsn1809</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=navneetsn1809" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
