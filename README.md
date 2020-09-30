@@ -41,4 +41,4 @@ git push origin brach-name
 * Make a pull request.
 
 
-Checkout [The Wall Of Contributions](https://github.com/Rishikesh-12/HacktoberFest2020/blob/master/CONTRIBUTORS.md)
+Checkout The Wall Of Contributions
