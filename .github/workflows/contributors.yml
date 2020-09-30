@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: Rishikesh-12/add-contributors@master
+    - uses: Rishikesh-12/HactoberFest2020@master
       with:
         REPO_NAME: 'Rishikesh-12/HacktoberFest2020'
         CONTRIBUTOR: '### Contributors'
