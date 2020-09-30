@@ -1,6 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
 
@@ -53,8 +53,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-     <td align="center"><a href="https://github.com/Rishikesh-12"><img src="https://avatars1.githubusercontent.com/u/54947439?s=400&u=db1c8d20adbb31328a878cc95e6467135b9ad144&v=4" width="100px;" alt=""/><br /><sub><b>Rishikesh-12</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=navneetsn18" title="Managing Requests">:man_teacher:</a></td>
-     <td align="center"><a href="https://github.com/navneetsn18"><img src="https://avatars3.githubusercontent.com/u/33743031?s=460&u=072e69daaf8006ebc77d7b5c03ac14124e1d25a6&v=4" width="100px;" alt=""/><br /><sub><b>navneetsn18</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=navneetsn18" title="Managing Requests">:man_teacher:</a></td>
     <td align="center"><a href="https://github.com/navneetsn1809"><img src="https://avatars2.githubusercontent.com/u/71883812?v=4" width="100px;" alt=""/><br /><sub><b>navneetsn1809</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=navneetsn1809" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/pranav-mendiratta-89713a173/"><img src="https://avatars1.githubusercontent.com/u/54665036?v=4" width="100px;" alt=""/><br /><sub><b>Pranav</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=Pranav016" title="Code">💻</a></td>
     <td align="center"><a href="https://prithvirajbiswas.com/"><img src="https://avatars2.githubusercontent.com/u/55537197?v=4" width="100px;" alt=""/><br /><sub><b>Prithviraj Biswas</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=prithvirajbytes" title="Code">💻</a></td>
