@@ -18,6 +18,10 @@ https://hacktoberfest.digitalocean.com/</p>
 ```markdown
 git clone https://github.com/your-username/HacktoberFest2020.git
 ```
+* change the present working directory
+```markdown
+cd HactoberFest2020
+```
 * Pick a project or make a new one
 * Make a new branch
 ```markdown
