@@ -1,5 +1,4 @@
-// Fix the Code or Make it better.
-
+//Code changed by Yasharth Tripathi
 import java.util.Scanner;
 
 public class Calculator {
@@ -10,12 +9,12 @@ public class Calculator {
         System.out.print("Enter two numbers: ");
 
         double first = reader.nextDouble();
-        //double second = reader.nextDouble();
+        double second = reader.nextDouble();
 
         System.out.print("Enter an operator (+, -, *, /): ");
         char operator = reader.next().charAt(0);
 
-        double result;
+        double result = 0;
 
         switch(operator)
         {
@@ -29,7 +28,7 @@ public class Calculator {
 
             case '*':
                 result = first * second;
-                //break;
+                break;
 
             case '/':
                 result = first / second;
@@ -37,10 +36,12 @@ public class Calculator {
 
             // operator doesn't match any case constant (+, -, *, /)
             default:
-                System.out.printf("Error! operator is not correct");
-                //return;
+                System.out.println("Error! operator is not correct");
+                break;
         }
 
-        System.out.printf("%.1f %c %.1f = %.1f", first, operator, second, result);
+        System.out.print( first+" ");
+        System.out.print( operator+" ");
+        System.out.print( second+" =");
+        System.out.println(result);
     }
-}
