@@ -28,7 +28,7 @@ cd HactoberFest2020
 git checkout -b branch-name
 ```
 * Make change in the repository with the new branch.
-* Add this to the CONTRIBUTORS.md file
+* Replace this with your details in CONTRIBUTORS.md file
 ```markdown
 <td align="center"><a href="YOUR_WEBSITE"><img src="YOUR_PICTURE" width="100px;" alt=""/><br /><sub><b>Your NAME</b></sub></a><br /></td>
 ```
