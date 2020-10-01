@@ -1,3 +1,6 @@
+# pattern printing
+# print any pattern you like.
+
 # Printing characters
 def alphapat(n): 	
 	
