@@ -23,7 +23,7 @@ git clone https://github.com/your-username/HacktoberFest2020.git
 ```
 * change the present working directory
 ```markdown
-cd HactoberFest2020
+cd HacktoberFest2020
 ```
 * Pick a project or make a new one
 * Make a new branch
