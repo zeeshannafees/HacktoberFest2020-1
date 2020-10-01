@@ -81,6 +81,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yasharthratan"><img src="https://avatars3.githubusercontent.com/u/55849466?v=4" width="100px;" alt=""/><br /><sub><b>Yasharth Tripathi</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=yasharthratan" title="Code">💻</a></td>
+     <td align="center"><a href="https://github.com/ankitamandal07"><img src="https://avatars0.githubusercontent.com/u/69421678?v=4" width="100px;" alt=""/><br /><sub><b>Ankita Mandal</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=ankitamandal07" title="Code">💻</a></td>
   </tr>
 </table>
 
