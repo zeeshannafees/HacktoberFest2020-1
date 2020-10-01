@@ -1,0 +1,36 @@
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `client`
+--
+
+CREATE TABLE IF NOT EXISTS `client` (
+  `client_id` varchar(10) NOT NULL,
+  `client_name` char(20) DEFAULT NULL,
+  `address` varchar(15) DEFAULT NULL,
+  `city` char(15) DEFAULT NULL,
+  `pin` int(9) DEFAULT NULL,
+  `state` char(15) DEFAULT NULL,
+  `bal_due` int(9) DEFAULT NULL,
+  PRIMARY KEY (`client_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `client`
+--
+
+INSERT INTO `client` (`client_id`, `client_name`, `address`, `city`, `pin`, `state`, `bal_due`) VALUES
+('cn01001', 'alak roy', 'b.d.para', 'amarpur', 799101, 'tripura', 391),
+('cn01002', 'suman roy', 'puk para', 'agartala', 799102, 'tripura', 2391),
+('cn01004', 'priya das', 'chora para', 'kamalpur', 799301, 'tripura', 1391),
+('cn01005', 'mita mia', 'kamal para', 'singur', 799721, 'tripura', 191),
+('cn01006', 'pulak roy', 'bircity', 'sonitpur', 799141, 'assam', 111),
+('cn01007', 'munni das', ' nappam', 'sonitpur', 799152, 'assam', 191),
+('cn01008', 'kusum roy', ' city_dos', 'tezpur', 799141, 'assam', 111),
+('cn01009', 'mina das', ' pachmile', 'tezpur', 799152, 'assam', 191),
+('cn01003', 'moytree nayak', ' pachmile', 'tezpur', 799152, 'assam', 9991),
+('cn01010', 'pauri mia', ' pachmile', 'tezpur', 799152, 'assam', 2991),
+('cn01011', 'manali das', ' satmile', 'tezpur', 799154, 'assam', 3991);
+
+
