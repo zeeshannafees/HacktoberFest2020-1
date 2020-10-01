@@ -1,3 +1,3 @@
-#COLOR FLIPPER
+# COLOR FLIPPER
 
 - A mini JS project 
