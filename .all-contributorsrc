@@ -221,6 +221,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "skrb7f16",
+      "name": "Shashank Kumar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/62869290?v=4",
+      "profile": "https://github.com/skrb7f16",
+      "contributions": [
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
