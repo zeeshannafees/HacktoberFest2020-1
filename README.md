@@ -95,6 +95,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://pawankushwaha.000webhostapp.com"><img src="https://avatars3.githubusercontent.com/u/55081234?v=4" width="100px;" alt=""/><br /><sub><b>Pawan Kushwaha</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=pkpawankushwaha" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gautam-arya"><img src="https://avatars1.githubusercontent.com/u/56232258?v=4" width="100px;" alt=""/><br /><sub><b>gautam-arya</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=gautam-arya" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ManishAgrawal99"><img src="https://avatars0.githubusercontent.com/u/39401082?v=4" width="100px;" alt=""/><br /><sub><b>Manish Agrawal</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=ManishAgrawal99" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Lunaticsatoshi"><img src="https://avatars2.githubusercontent.com/u/47326452?v=4" width="100px;" alt=""/><br /><sub><b>Sudeep Deysarker</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=Lunaticsatoshi" title="Code">💻</a></td>
   </tr>
 </table>
 
