@@ -230,6 +230,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "sayantanHack",
+      "name": "Sayantan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26269305?v=4",
+      "profile": "http://sayantan.cf",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
