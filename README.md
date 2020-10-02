@@ -1,6 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-39-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
 
@@ -101,6 +101,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://vighnesh-responsive.netlify.app/"><img src="https://avatars1.githubusercontent.com/u/52296623?v=4" width="100px;" alt=""/><br /><sub><b>Vighnesh Deep Sharan</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=vighneshdeepweb" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/siddharthdeo99"><img src="https://avatars2.githubusercontent.com/u/41829093?v=4" width="100px;" alt=""/><br /><sub><b>Siddharth Lal Deo</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=siddharthdeo99" title="Code">💻</a></td>
     <td align="center"><a href="http://id4u.in"><img src="https://avatars3.githubusercontent.com/u/54472711?v=4" width="100px;" alt=""/><br /><sub><b>Vedant Bhoyar</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=vedantby" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ankitamandal07"><img src="https://avatars0.githubusercontent.com/u/69421678?v=4" width="100px;" alt=""/><br /><sub><b>Ankita Mandal</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=ankitamandal07" title="Code">💻</a></td>
   </tr>
 </table>
 
