@@ -1,6 +1,8 @@
 # Dice App
 
-# Link to the app : dicee-cs158.web.app 
+# Link to the app : http://dicee-cs158.web.app
+
+
 
 This application has been made using flutter and hosted on web with firebase because of the cross platform ability of flutter.
 In this there will be two dice side by side to each other and tapping on any one of the dice will lead to change in dice image randomly. 
