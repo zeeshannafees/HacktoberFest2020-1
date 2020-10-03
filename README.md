@@ -113,6 +113,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/dilipvijjapu"><img src="https://avatars0.githubusercontent.com/u/59950952?v=4" width="100px;" alt=""/><br /><sub><b>DilipVijjapu</b></sub></a><br /><a href="#security-dilipvijjapu" title="Security">🛡️</a></td>
     <td align="center"><a href="https://hvijay.000webhostapp.com/"><img src="https://avatars1.githubusercontent.com/u/42738563?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Vijay</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=hvijaycse" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ANTASGUPTA"><img src="https://avatars3.githubusercontent.com/u/35564545?v=4" width="100px;" alt=""/><br /><sub><b>ANTAS GUPTA</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=ANTASGUPTA" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sanyammm"><img src="https://avatars2.githubusercontent.com/u/65529289?v=4" width="100px;" alt=""/><br /><sub><b>Sanyam Sharma</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=sanyammm" title="Code">💻</a></td>
   </tr>
 </table>
 
