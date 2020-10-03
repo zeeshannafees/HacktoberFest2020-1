@@ -6,15 +6,6 @@
   "commit": false,
   "contributors": [
     {
-      "login": "rudrabarad",
-      "name": "Rudra Barad",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/53337681?s=460&u=5a0e759a1652a329777b7ac80ce271a35347d252&v=4",
-      "profile": "https://github.com/rudrabarad",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "navneetsn1809",
       "name": "navneetsn1809",
       "avatar_url": "https://avatars2.githubusercontent.com/u/71883812?v=4",
@@ -524,7 +515,16 @@
       "contributions": [
         "code"
       ]
-    }
+    },
+    {
+      "login": "rudrabarad",
+      "name": "Rudra Barad",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/53337681?s=460&u=5a0e759a1652a329777b7ac80ce271a35347d252&v=4",
+      "profile": "https://github.com/rudrabarad",
+      "contributions": [
+        "code"
+      ]
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "HacktoberFest2020",
