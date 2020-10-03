@@ -440,6 +440,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "navneetsn18",
+      "name": "Navneet Singh Negi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33743031?v=4",
+      "profile": "http://navneetsn18.codes",
+      "contributions": [
+        "code",
+        "doc",
+        "review",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
