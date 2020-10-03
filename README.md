@@ -1,6 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-49-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-50-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
 
@@ -114,6 +114,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ANTASGUPTA"><img src="https://avatars3.githubusercontent.com/u/35564545?v=4" width="100px;" alt=""/><br /><sub><b>ANTAS GUPTA</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=ANTASGUPTA" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sanyammm"><img src="https://avatars2.githubusercontent.com/u/65529289?v=4" width="100px;" alt=""/><br /><sub><b>Sanyam Sharma</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=sanyammm" title="Code">💻</a></td>
     <td align="center"><a href="http://navneetsn18.codes"><img src="https://avatars1.githubusercontent.com/u/33743031?v=4" width="100px;" alt=""/><br /><sub><b>Navneet Singh Negi</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=navneetsn18" title="Code">💻</a> <a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=navneetsn18" title="Documentation">📖</a> <a href="https://github.com/Rishikesh-12/HacktoberFest2020/pulls?q=is%3Apr+reviewed-by%3Anavneetsn18" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-navneetsn18" title="Maintenance">🚧</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://aniketsingh98571.github.io/Web-Portfolio/"><img src="https://avatars3.githubusercontent.com/u/63097956?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Singh</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=aniketsingh98571" title="Code">💻</a></td>
   </tr>
 </table>
 
