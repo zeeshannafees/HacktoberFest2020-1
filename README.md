@@ -1,5 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
@@ -109,6 +110,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://www.codespeedy.com/author/rishabh_agarwal/"><img src="https://avatars1.githubusercontent.com/u/44724446?v=4" width="100px;" alt=""/><br /><sub><b>Rishabh Agarwal</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=Rishabh40" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/skrb7f16"><img src="https://avatars1.githubusercontent.com/u/62869290?v=4" width="100px;" alt=""/><br /><sub><b>Shashank Kumar</b></sub></a><br /><a href="#example-skrb7f16" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/dilipvijjapu"><img src="https://avatars0.githubusercontent.com/u/59950952?v=4" width="100px;" alt=""/><br /><sub><b>DilipVijjapu</b></sub></a><br /><a href="#security-dilipvijjapu" title="Security">🛡️</a></td>
   </tr>
 </table>
 
