@@ -470,6 +470,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "parthpanchal123",
+      "name": "Parth Panchal",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20091596?v=4",
+      "profile": "https://parthpanchal.me/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
