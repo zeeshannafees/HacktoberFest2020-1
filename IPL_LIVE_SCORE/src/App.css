@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  background: rgb(70, 70, 70);
+}
+
+.App {
+  text-align: center ;
+}
+
+.App > h1 {
+  color: white;
+  text-shadow: 0 19px 38px black, 0 15px 12px black;
+}
+.footer {
+  bottom: 0px;
+  padding: 2.5rem;
+  font-size: 1rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
