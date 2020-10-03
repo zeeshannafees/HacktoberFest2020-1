@@ -35,7 +35,7 @@ git checkout -b branch-name
 ```markdown
 git add .
 git commit -m "Your commit Message"
-git push origin brach-name
+git push origin branch-name
 ```
 * Make a pull request.
 * Star the repository if you like.
