@@ -374,6 +374,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Rishikesh-12",
+      "name": "Rishikesh Mishra",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54947439?v=4",
+      "profile": "https://rishikeshmishra.netlify.app",
+      "contributions": [
+        "code",
+        "review",
+        "doc",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
