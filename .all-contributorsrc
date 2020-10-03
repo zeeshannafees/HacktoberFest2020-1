@@ -386,6 +386,15 @@
         "doc",
         "maintenance"
       ]
+    },
+    {
+      "login": "Rishabh40",
+      "name": "Rishabh Agarwal",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44724446?v=4",
+      "profile": "https://www.codespeedy.com/author/rishabh_agarwal/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

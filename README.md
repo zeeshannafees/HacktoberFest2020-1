@@ -1,6 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
 
@@ -105,6 +105,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://ankush-chauhan.web.app/"><img src="https://avatars3.githubusercontent.com/u/67872399?v=4" width="100px;" alt=""/><br /><sub><b>Ankush Chauhan</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=An-prog-hub" title="Code">💻</a></td>
     <td align="center"><a href="http://aayushipandey.netlify.app/"><img src="https://avatars3.githubusercontent.com/u/60283749?v=4" width="100px;" alt=""/><br /><sub><b>Aayushi Pandey</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=aayushi221" title="Code">💻</a></td>
     <td align="center"><a href="https://rishikeshmishra.netlify.app"><img src="https://avatars1.githubusercontent.com/u/54947439?v=4" width="100px;" alt=""/><br /><sub><b>Rishikesh Mishra</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=Rishikesh-12" title="Code">💻</a> <a href="https://github.com/Rishikesh-12/HacktoberFest2020/pulls?q=is%3Apr+reviewed-by%3ARishikesh-12" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=Rishikesh-12" title="Documentation">📖</a> <a href="#maintenance-Rishikesh-12" title="Maintenance">🚧</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.codespeedy.com/author/rishabh_agarwal/"><img src="https://avatars1.githubusercontent.com/u/44724446?v=4" width="100px;" alt=""/><br /><sub><b>Rishabh Agarwal</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=Rishabh40" title="Code">💻</a></td>
   </tr>
 </table>
 
