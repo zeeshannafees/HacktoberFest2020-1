@@ -17,7 +17,7 @@ https://hacktoberfest.digitalocean.com/</p>
    
 ### How to Contribute to this repository
 ----
-> **Note:** "Please Don't make any changes to README.MD and .all-contributorsrc"
+
 * Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
 * Clone the forked repository to your local machine.
 ```markdown
@@ -41,6 +41,8 @@ git push origin branch-name
 ```
 * Make a pull request.
 * Star the repository if you like.
+
+> **Note:** "Please Don't make any changes to README.MD and .all-contributorsrc"
 
 * You are almost there, now its time for you to be on our contributors wall.
    
