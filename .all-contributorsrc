@@ -542,6 +542,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "tanoto-the-explorer",
+      "name": "Michelle Tanoto",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50018139?v=4",
+      "profile": "https://michelletanoto.netlify.app",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
