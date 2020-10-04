@@ -1,6 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-59-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-60-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
 
@@ -132,6 +132,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/parthx9"><img src="https://avatars3.githubusercontent.com/u/42884519?v=4" width="100px;" alt=""/><br /><sub><b>Parth Arora</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=parthx9" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/rudrabarad"><img src="https://avatars2.githubusercontent.com/u/53337681?s=460&u=5a0e759a1652a329777b7ac80ce271a35347d252&v=4" width="100px;" alt=""/><br /><sub><b>Rudra Barad</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=rudrabarad" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gmmonsalve"><img src="https://avatars0.githubusercontent.com/u/30907973?v=4" width="100px;" alt=""/><br /><sub><b>Gabriela Monsalve</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=gmmonsalve" title="Code">💻</a></td>
+    <td align="center"><a href="https://michelletanoto.netlify.app"><img src="https://avatars1.githubusercontent.com/u/50018139?v=4" width="100px;" alt=""/><br /><sub><b>Michelle Tanoto</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=tanoto-the-explorer" title="Code">💻</a></td>
   </tr>
 </table>
 
