@@ -375,6 +375,166 @@
         "code"
       ]
     }
+    },
+    {
+      "login": "aayushi221",
+      "name": "Aayushi Pandey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60283749?v=4",
+      "profile": "http://aayushipandey.netlify.app/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Rishikesh-12",
+      "name": "Rishikesh Mishra",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54947439?v=4",
+      "profile": "https://rishikeshmishra.netlify.app",
+      "contributions": [
+        "code",
+        "review",
+        "doc",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "Rishabh40",
+      "name": "Rishabh Agarwal",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44724446?v=4",
+      "profile": "https://www.codespeedy.com/author/rishabh_agarwal/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "skrb7f16",
+      "name": "Shashank Kumar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/62869290?v=4",
+      "profile": "https://github.com/skrb7f16",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dilipvijjapu",
+      "name": "DilipVijjapu",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/59950952?v=4",
+      "profile": "https://github.com/dilipvijjapu",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hvijaycse",
+      "name": "Harsh Vijay",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42738563?v=4",
+      "profile": "https://hvijay.000webhostapp.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ANTASGUPTA",
+      "name": "ANTAS GUPTA",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35564545?v=4",
+      "profile": "https://github.com/ANTASGUPTA",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sanyammm",
+      "name": "Sanyam Sharma",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/65529289?v=4",
+      "profile": "https://github.com/sanyammm",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "navneetsn18",
+      "name": "Navneet Singh Negi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33743031?v=4",
+      "profile": "http://navneetsn18.codes",
+      "contributions": [
+        "code",
+        "doc",
+        "review",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "aniketsingh98571",
+      "name": "Aniket Singh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/63097956?v=4",
+      "profile": "https://aniketsingh98571.github.io/Web-Portfolio/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "RishabhDevbanshi",
+      "name": "Rishabh Devbanshi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/64083218?v=4",
+      "profile": "https://github.com/RishabhDevbanshi",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "parthpanchal123",
+      "name": "Parth Panchal",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20091596?v=4",
+      "profile": "https://parthpanchal.me/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Ankur-S1",
+      "name": "Ankur-S1",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/65460931?v=4",
+      "profile": "https://github.com/Ankur-S1",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "HarshiniR4",
+      "name": "HarshiniR4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/59364581?v=4",
+      "profile": "https://github.com/HarshiniR4",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ArghyaBiswas0",
+      "name": "Arghya Biswas",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43907522?v=4",
+      "profile": "http://arghya.surge.sh",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "parthx9",
+      "name": "Parth Arora",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/42884519?v=4",
+      "profile": "https://github.com/parthx9",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rudrabarad",
+      "name": "Rudra Barad",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/53337681?s=460&u=5a0e759a1652a329777b7ac80ce271a35347d252&v=4",
+      "profile": "https://github.com/rudrabarad",
+      "contributions": [
+        "code"
+      ]
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "HacktoberFest2020",

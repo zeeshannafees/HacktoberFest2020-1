@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        window.onload = function() {
+            animateSequence1();
+            //animateRandom();
+            setTimeout(function() {
+                    document.querySelector('.sequence').classList.add('leFlyOutLeft','sequence2');
+                }, 2000)
+            setTimeout(function() {
+                document.querySelector('.rotateXIn').classList.remove('rotateXIn');
+                document.querySelector('.logo').classList.add('rotateXOut')
+            }, 5000)
+            setTimeout(function() {
+                document.querySelector('.leZoomIn').classList.add('leZoomOut')
+            }, 7500)
+            setTimeout(function() {
+                document.querySelector('.bounceInTop').classList.add('bounceOutTop')
+            }, 10000)
+            setTimeout(function() {
+                document.querySelector('.leScaleXIn').classList.add('lightning')
+            }, 11500)
+            setTimeout(function() {
+                document.querySelector('.leScaleXIn').classList.add('leScaleXOut')
+            }, 12500)
+            setTimeout(function() {
+                document.querySelector('.lePushReleaseFrom').classList.add('pushReleaseTo')
+            }, 13500)
+            animateSequence2()
+
+        }
+        function animateSequence1() {
+            var a = document.getElementsByClassName('sequence');
+            for (var i = 0; i < a.length; i++) {
+                var $this = a[i];
+                var letter = $this.innerHTML;
+                letter = letter.trim();
+                var str = '';
+                var delay = 100;
+                for (l = 0; l < letter.length; l++) {
+                    if (letter[l] != ' ') {
+                        str += '<span style="animation-delay:' + delay + 'ms; -moz-animation-delay:' + delay + 'ms; -webkit-animation-delay:' + delay + 'ms; ">' + letter[l] + '</span>';
+                        delay += 150;
+                    } else
+                        str += letter[l];
+                }
+                $this.innerHTML = str;
+            }
+        }
+
+        function animateSequence2() {
+            
+            var a = document.getElementsByClassName('sequence2');
+            for (var i = 0; i < a.length; i++) {
+                var $this = a[i];
+                var letter = $this.innerHTML;
+                letter = letter.trim();
+                var str = '';
+                var delay = 100;
+                for (l = 0; l < letter.length; l++) {
+                    if (letter[l] != ' ') {
+                        str += '<span style="animation-delay:' + delay + 'ms; -moz-animation-delay:' + delay + 'ms; -webkit-animation-delay:' + delay + 'ms; ">' + letter[l] + '</span>';
+                        delay += 150;
+                    } else
+                        str += letter[l];
+                }
+                $this.innerHTML = str;
+            }
+        }
+
+    </script>
+    <style>
+        body {
+            overflow: hidden;
+            font-family: 'Ubuntu', sans-serif;
+            animation: mymove 20s ease-in-out;
+        }
+
+        div {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        h1 {
+            font-size: 4.3em;
+            letter-spacing: -4px;
+            font-weight: 700;
+            color: #7e2ea0;
+            text-align: center;
+        }
+
+        .visible{
+            visibility: visible;
+        }
+
+        .hidden{
+            visibility: hidden !important;
+        }
+
+        .cssanimation, .cssanimation span {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        .animationTwo {
+            /*animation: rotateXIn 2s ease-out -2s infinite alternate;*/
+            opacity: 0;
+            animation: zoomIn 8s ease-out;
+            animation-delay: 6.5s;
+        }
+
+        .cssanimation span { display: inline-block }
+
+        .lightning { animation-name: lightning !important; transition-duration: 1000ms !important;}
+        @keyframes lightning {
+            from, 50%, to { opacity: 1 }
+            25%, 75% { opacity: 0 }
+        }
+
+        .bounceInTop { animation-name: bounceInTop !important; animation-delay: 9000ms ; transition-duration: 500ms !important; }
+        @keyframes bounceInTop {
+            0% { transform: translate3d(0, -300%, 0) }
+            58% { transform: translate3d(0, 27px, 0) }
+            73% { transform: translate3d(0, -12px, 0) }
+            88% { transform: translate3d(0, 7px, 0) }
+        }
+
+        .bounceOutTop { animation-name: bounceOutTop !important ; transition-delay: 0ms !important; transition-duration: 500ms !important; animation-delay: 0ms !important;}
+        @keyframes bounceOutTop {
+            18%, 33%, 48% { opacity: 1}
+            18% { transform: translate3d(0, 27px, 0) }
+            33% { transform: translate3d(0, -12px, 0) }
+            48% { transform: translate3d(0, 8px, 0) }
+            100% {
+                opacity: 0;
+                transform: translate3d(0, -300%, 0)
+            }
+        }
+
+        .zoomIn { animation-name: zoomIn }
+        @keyframes zoomIn {
+            from {
+                transform: scale(10);
+                opacity: 0;
+            }
+        }
+
+        .leZoomIn span { animation-name: leZoomIn ; animation-delay: 6500ms !important; }
+        @keyframes leZoomIn {
+            from {
+                transform: scale(10);
+                opacity: 0;
+            }
+        }
+
+        .leZoomOut span { animation-name: leZoomOut !important ; animation-delay: 1000ms !important; }
+        @keyframes leZoomOut {
+            to {
+                transform: scale(10);
+                opacity: 0;
+            }
+        }
+
+        .rotateXOut { animation-name: rotateXOut !important ; animation-delay: 1000ms !important;}
+        @keyframes rotateXOut {
+            95% { transform: perspective(600px) translate3d(0, -60px, -1500px) rotateX(75deg) }
+            to {
+                transform: perspective(600px) translate3d(0, -60px, -2000px) rotateX(75deg);
+                opacity: 0;
+            }
+        }
+
+        .rotateXIn { animation-name: rotateXIn !important ; animation-delay: 4000ms !important; }
+        @keyframes rotateXIn {
+            from {
+                transform: perspective(600px) translate3d(0, -60px, -2000px) rotateX(75deg);
+                opacity: 0;
+            }
+            5% { transform: perspective(600px) translate3d(0, -60px, -1500px) rotateX(75deg) }
+        }
+
+        .leFlyInRight span { animation-name: leFlyInRight; animation-timing-function: ease-in-out ; background-color: aqua;}
+        @keyframes leFlyInRight {
+            0% {
+                transform: translate(40px, 0px);
+                opacity: 0;
+            }
+            50% { transform: translate(-40px, 0px) }
+        }
+
+        .leFlyOutLeft span { animation-name: leFlyOutLeft; animation-timing-function: ease-in-out; transition-delay: 2000ms; }
+        @keyframes leFlyOutLeft {
+            50% { transform: translate(40px, 0px) }
+            to {
+                transform: translate(-100px, 0px);
+                opacity: 0;
+            }
+        }
+        .leScaleXIn span { animation-name: leScaleXIn !important; animation-delay: 11000ms !important; transition-delay: 11000ms !important;}
+        @keyframes leScaleXIn {
+            from {
+                transform: perspective(400px) rotateX(90deg);
+                opacity: 0;
+            }
+            50% { opacity: 1 }
+        }
+        .leScaleXOut span { animation-name: leScaleXOut !important ; transition-duration: 500ms !important; animation-delay: 0ms !important; transition-delay: 0ms !important; }
+        @keyframes leScaleXOut {
+            to {
+                transform: perspective(400px) rotateX(90deg);
+                opacity: 0;
+            }
+            from { opacity: 1 }
+
+        }
+        .lePushReleaseFrom span { animation-name: lePushReleaseFrom  !important; animation-delay: 13000ms !important}
+        @keyframes lePushReleaseFrom {
+            from {
+                transform: scale(3, 3);
+                opacity: 0;
+            }
+            50% { transform: scale(.5, .5) }
+        }
+        .pushReleaseTo { animation-name: pushReleaseTo !important}
+        @keyframes pushReleaseTo {
+            30% { transform: scale(.5, .5) }
+            to {
+                transform: scale(5, 5);
+                opacity: 0;
+            }
+        }
+        @keyframes mymove {
+        0%   {background: red;}
+        25%  {background: blue;}
+        50%  {background: yellow;}
+        75%  {background: green;}
+        100% {background: red;}
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet">
+    <div>
+        <h1 class="cssanimation sequence leFlyInRight">Transition 1</h1>
+    <div style="align-items: center; text-align: center;">
+        <img src="./logo.png" class="cssanimation logo rotateXIn" width="200px" height="200px">
+    </div>
+    <div>
+        <h1 class="cssanimation sequence leZoomIn">Transition-2</h1>
+    </div>
+    <div style="align-items: center; text-align: center;">
+        <img src="./logo.png" class="cssanimation logo bounceInTop" width="200px" height="200px">
+    </div>
+    <div>
+        <h1 class="cssanimation leScaleXIn sequence">Transition-3</h1>
+    </div>
+    <div>
+        <h1 class="cssanimation lePushReleaseFrom sequence">Transition-4</h1>
+    </div>
+    <!--<h1 class="cssanimation leFlyInRight random">cssanimation</h1>
+    please uncomment if you want to see random version-->
+    </div>
+</body>
+</html>
