@@ -16,6 +16,8 @@ https://hacktoberfest.digitalocean.com/</p>
 * Create four valid pull requests (PRs) between 1st - 31st October
    
 ### How to Contribute to this repository
+----
+#### "Please Don't make any changes to README.MD and .all-contributorsrc"
 * Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
 * Clone the forked repository to your local machine.
 ```markdown
