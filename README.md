@@ -147,7 +147,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/gayathribuddhika"><img src="https://avatars2.githubusercontent.com/u/39160904?v=4" width="100px;" alt=""/><br /><sub><b>Gayathri Buddhika</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=gayathribuddhika" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/itsAbdulKhadar"><img src="https://avatars1.githubusercontent.com/u/45942507?v=4" width="100px;" alt=""/><br /><sub><b>itsAbdulKhadar</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=itsAbdulKhadar" title="Code">💻</a></td>
+     <td align="center"><a href="https://github.com/itsAbdulKhadar"><img src="https://avatars1.githubusercontent.com/u/45942507?v=4" width="100px;" alt=""/><br /><sub><b>itsAbdulKhadar</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=itsAbdulKhadar" title="Code">💻</a></td>
+     <td align="center"><a href="https://github.com/ajitg1"><img src="https://avatars3.githubusercontent.com/u/47079064?v=4" width="100px;" alt=""/><br /><sub><b>Ajit Garg</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=ajitg1" title="Code">💻</a></td>
   </tr>
 </table>
 
