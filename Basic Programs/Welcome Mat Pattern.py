@@ -1,6 +1,6 @@
-print("Mat size must be M * N. ( Mis an odd natural number, and N is 3 timesM ")
+print("Mat size must be in a odd natural number")
 a=int(input('Enter value of M'))
-b=int(input('Enter value of N'))
+b=a * 3
 x=3
 for i in range(int(a/2)):
     for j in range(int((b-x)/2)):
