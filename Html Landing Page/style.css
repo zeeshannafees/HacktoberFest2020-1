@@ -1,21 +1,33 @@
-div {
-  border: 1px solid gray;
-  padding: 8px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #4CAF50;
+header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(99, 155, 240);
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    z-index: 1;
 }
-
-p {
-  text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 3px;
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
-
-a {
-  text-decoration: none;
-  color: #008CBA;
+header ul li a {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+main{
+    height: 70vh;
+}
+footer{
+    height: 15vh;
+    background-color: rgb(99, 155, 240);
 }
