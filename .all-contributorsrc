@@ -758,6 +758,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "sovako",
+      "name": "Happy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/72388310?v=4",
+      "profile": "https://github.com/sovako",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
