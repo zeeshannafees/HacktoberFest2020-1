@@ -1,0 +1,152 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.10.17
+-- https://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Sep 04, 2019 at 01:31 PM
+-- Server version: 5.1.71
+-- PHP Version: 5.3.3
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `dbroshni`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `client`
+--
+
+CREATE TABLE IF NOT EXISTS `client` (
+  `client_id` varchar(10) NOT NULL,
+  `client_name` char(20) DEFAULT NULL,
+  `address` varchar(15) DEFAULT NULL,
+  `city` char(15) DEFAULT NULL,
+  `pin` int(9) DEFAULT NULL,
+  `state` char(15) DEFAULT NULL,
+  `bal_due` int(9) DEFAULT NULL,
+  PRIMARY KEY (`client_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `client`
+--
+
+INSERT INTO `client` (`client_id`, `client_name`, `address`, `city`, `pin`, `state`, `bal_due`) VALUES
+('cn01001', 'alak roy', 'b.d.para', 'amarpur', 799101, 'tripura', 391),
+('cn01002', 'suman roy', 'puk para', 'agartala', 799102, 'tripura', 2391),
+('cn01004', 'priya das', 'chora para', 'kamalpur', 799301, 'tripura', 1391),
+('cn01005', 'mita mia', 'kamal para', 'singur', 799721, 'tripura', 191),
+('cn01006', 'pulak roy', 'bircity', 'sonitpur', 799141, 'assam', 111),
+('cn01007', 'munni das', ' nappam', 'sonitpur', 799152, 'assam', 191),
+('cn01008', 'kusum roy', ' city_dos', 'tezpur', 799141, 'assam', 111),
+('cn01009', 'mina das', ' pachmile', 'tezpur', 799152, 'assam', 191),
+('cn01003', 'moytree nayak', ' pachmile', 'tezpur', 799152, 'assam', 9991),
+('cn01010', 'pauri mia', ' pachmile', 'tezpur', 799152, 'assam', 2991),
+('cn01011', 'manali das', ' satmile', 'tezpur', 799154, 'assam', 3991);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `product`
+--
+
+CREATE TABLE IF NOT EXISTS `product` (
+  `product_id` varchar(10) NOT NULL,
+  `product_name` varchar(20) DEFAULT NULL,
+  `manufacturer_name` char(20) DEFAULT NULL,
+  `product_rate` int(10) DEFAULT NULL,
+  `sell_price` int(9) DEFAULT NULL,
+  `product_description` varchar(25) DEFAULT NULL,
+  PRIMARY KEY (`product_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `product`
+--
+
+INSERT INTO `product` (`product_id`, `product_name`, `manufacturer_name`, `product_rate`, `sell_price`, `product_description`) VALUES
+('p001', 'lux_soap', 'Lux_international', 15, 20, 'soap'),
+('p002', 'copy', 'times_copy_org', 14, 16, 'copy'),
+('p003', 'marry_biscuit', 'marigold_org', 2218, 2220, 'buiskit'),
+('p004', 'mitsubisi_pen', 'pen_international', 2015, 2120, 'pen'),
+('p005', 'learn_books', 'book_world', 5104, 5116, 'book'),
+('p006', 'tata_steel', 'tata_org', 5118, 5120, 'tata'),
+('p007', 'seagate hdd', 'seaget_world', 5104, 5116, 'HDD1034'),
+('p008', 'dvd writer', 'frontec_org', 5118, 5120, 'DVDRW');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `salesman`
+--
+
+CREATE TABLE IF NOT EXISTS `salesman` (
+  `salesman_id` varchar(10) NOT NULL,
+  `salesman_name` char(20) DEFAULT NULL,
+  `address` varchar(15) DEFAULT NULL,
+  `city` char(15) DEFAULT NULL,
+  `pin` int(9) DEFAULT NULL,
+  `state` char(15) DEFAULT NULL,
+  `salary` decimal(9,4) DEFAULT NULL,
+  PRIMARY KEY (`salesman_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `salesman`
+--
+
+INSERT INTO `salesman` (`salesman_id`, `salesman_name`, `address`, `city`, `pin`, `state`, `salary`) VALUES
+('s001', 'Rohan das', 'nappam', 'Tezpur', 79970, 'Assam', '8000.0000'),
+('s002', 'Rohan das', 'nappam', 'Tezpur', 799170, 'Assam', '8000.0000'),
+('s003', 'Smita das', 'nirjuli', 'itanagar', 799701, 'Arunachal', '9000.0000'),
+('s004', 'Kabir bora', 'nappam', 'Tezpur', 799703, 'Assam', '8500.0000'),
+('s005', 'Neha singh', 'borbota ', 'sonitpur', 795970, 'assam', '9600.0000'),
+('s006', 'Priya agarwal', 'gandhi road ', '32 distric', 799750, 'delhi', '9900.0000'),
+('s007', 'Ashok Paul', 'filmcity', 'munnabari', 799740, 'mumbai', '8900.0000');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sales_order_details`
+--
+
+CREATE TABLE IF NOT EXISTS `sales_order_details` (
+  `sales_order_no` varchar(10) NOT NULL,
+  `sales_order_date` date DEFAULT NULL,
+  `client_id` varchar(10) DEFAULT NULL,
+  `salesman_id` varchar(10) DEFAULT NULL,
+  `bill_payby_party` char(5) DEFAULT NULL,
+  `delivery_date` date DEFAULT NULL,
+  `product_rate` int(10) DEFAULT NULL,
+  `tot_quantity_order` int(9) DEFAULT NULL,
+  `cancel_date` date DEFAULT NULL,
+  PRIMARY KEY (`sales_order_no`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `sales_order_details`
+--
+
+INSERT INTO `sales_order_details` (`sales_order_no`, `sales_order_date`, `client_id`, `salesman_id`, `bill_payby_party`, `delivery_date`, `product_rate`, `tot_quantity_order`, `cancel_date`) VALUES
+('on01001', '2008-08-01', 'cn01001', 's001', 'yes', '2008-08-20', 2220, 50, '0000-00-00'),
+('on01002', '2008-08-12', 'cn01004', 's001', 'yes', '2008-08-23', 2220, 15, '0000-00-00'),
+('on01003', '2008-08-12', 'cn01005', 's003', 'yes', '2008-08-26', 2220, 10, '0000-00-00'),
+('on01004', '2008-08-13', 'cn01004', 's001', 'yes', '2008-08-20', 2220, 15, '0000-00-00'),
+('on01005', '2008-08-14', 'cn01002', 's002', 'no', '2008-08-30', 2220, 52, '2008-08-28'),
+('on01006', '2008-08-15', 'cn01001', 's001', 'yes', '2008-08-31', 2220, 53, '0000-00-00'),
+('on01007', '2008-01-16', 'cn01003', 's004', 'yes', '2008-08-28', 2220, 54, '0000-00-00'),
+('on01008', '2008-02-01', 'cn01004', 's003', 'no', '2008-08-28', 8220, 54, '2008-03-18');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
