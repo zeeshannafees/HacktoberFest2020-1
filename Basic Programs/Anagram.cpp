@@ -1,9 +1,3 @@
-Anagram
----------------------------------------------------------------------------------------------
-Question link - https://practice.geeksforgeeks.org/problems/anagram/0
-
----------------------------------------------------------------------------------------------
-Solution - 
 #include <bits/stdc++.h>
 using namespace std;
  
