@@ -1,6 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-86-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-87-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
 
@@ -167,6 +167,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/navneetsn1809"><img src="https://avatars2.githubusercontent.com/u/71883812?v=4" width="100px;" alt=""/><br /><sub><b>navneetsn1809</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=navneetsn1809" title="Documentation">📖</a> <a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=navneetsn1809" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/rahul149"><img src="https://avatars1.githubusercontent.com/u/53679844?v=4" width="100px;" alt=""/><br /><sub><b>Rahul</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=rahul149" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rijusougata13"><img src="https://avatars3.githubusercontent.com/u/52108435?v=4" width="100px;" alt=""/><br /><sub><b>Sougata das </b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=rijusougata13" title="Code">💻</a></td>
   </tr>
 </table>
 
