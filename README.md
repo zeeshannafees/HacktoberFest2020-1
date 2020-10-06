@@ -1,6 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-112-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-113-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 #### Contribute to hacktoberfest 2020
 
@@ -199,6 +199,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/khushi-mishra-584817173/"><img src="https://avatars1.githubusercontent.com/u/66117883?v=4" width="100px;" alt=""/><br /><sub><b>Khushi Mishra</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=khushimishra26" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/reachaadrika"><img src="https://avatars2.githubusercontent.com/u/64789514?v=4" width="100px;" alt=""/><br /><sub><b>reachaadrika</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=reachaadrika" title="Code">💻</a></td>
     <td align="center"><a href="http://aztecs-india.ueniweb.com/"><img src="https://avatars3.githubusercontent.com/u/57908494?v=4" width="100px;" alt=""/><br /><sub><b>Yogesh Gaur</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=imyogeshgaur" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/THEBEAST310"><img src="https://avatars2.githubusercontent.com/u/52762648?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek Jain</b></sub></a><br /><a href="https://github.com/Rishikesh-12/HacktoberFest2020/commits?author=THEBEAST310" title="Code">💻</a></td>
   </tr>
 </table>
 
