@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+h1{
+    color: white;
+    font-family: FreeSerif;
+    background-color: #2ea44f;
+    margin: 0 auto;
+    font-weight: normal;
+    padding: 20px;
+    box-shadow: 5px 0 5px #2ea44f;
+}
+#main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:700px;
+    margin: 50px auto;
+    padding:30px;
+    background-color: #ffffff;
+    border: 2px solid white;
+    box-shadow: 0 0 5px lightgrey;
+    align-items: center;
+}
+input{
+    margin:10px;
+    padding:5px;
+    width:400px;
+}
+#btn{
+    width:200px;
+    height: 40px;
+    background-color: #2ea44f;
+    color: #fff;
+    box-shadow: 0 0 3px #2ea44f;
+    border: 2px solid #2ea44f;
+    border-radius: 5%;
+}
+#btn:hover , .commit-btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+#repositories{
+    margin:30px;
+}
+.card{
+    padding:10px;
+}
+a{
+    color: #2ea44f;
+    text-decoration: none;
+    font-family: FreeSerif;
+}
+a:hover{
+    text-shadow: 1px 1px 2px #2ea44f;
+}
+.language{
+    font-weight: normal;
+}
+.commit-btn{
+    background-color: #2ea44f;
+    color: #fff;
+    box-shadow: 0 0 3px #2ea44f;
+    border: 2px solid #2ea44f;
+    border-radius: 5%;
+    height: 30px;
+    margin:10px;
+    padding:5px;
+}
