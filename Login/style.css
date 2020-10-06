@@ -1,0 +1,29 @@
+.tagged
+{
+    margin: 0;
+    padding: 0;
+    background:  #d5f4e6;
+}
+h3{
+  text-align: center;
+  color: #277582;
+  padding: 40px;
+}
+.login{
+        width: 400px;
+        overflow: hidden;
+        margin:auto;
+        padding: 80px;
+        background: #80ced6;
+        border-radius: 15px ;
+}
+label{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.tag{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
