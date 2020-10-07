@@ -1,29 +1,29 @@
-.tagged
-{
-    margin: 0;
-    padding: 0;
-    background:  #d5f4e6;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcdada;
+  height: 100vh;
 }
-h3{
-  text-align: center;
-  color: #277582;
-  padding: 40px;
+
+input:hover{
+  border-color: #b2deec;
 }
-.login{
-        width: 400px;
-        overflow: hidden;
-        margin:auto;
-        padding: 80px;
-        background: #80ced6;
-        border-radius: 15px ;
+
+.btn:hover {
+  background-color:#eeeeee;
+  color: #686d76;
 }
-label{
-    font-size: 17px;
-    font-weight: bolder;
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #ecf4f3;
 }
-.tag{
-    width: 250px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
 }
