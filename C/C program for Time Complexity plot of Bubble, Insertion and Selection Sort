@@ -1,0 +1,104 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <time.h> 
+  
+void swap(long int* a, long int* b) 
+{ 
+    int tmp = *a; 
+    *a = *b; 
+    *b = tmp; 
+} 
+  
+void bubbleSort(long int a[], long int n) 
+{ 
+    for (long int i = 0; i < n - 1; i++) { 
+        for (long int j = 0; j < n - 1 - i; j++) { 
+            if (a[j] > a[j + 1]) { 
+                swap(&a[j], &a[j + 1]); 
+            } 
+        } 
+    } 
+} 
+  
+void insertionSort(long int arr[], long int n) 
+{ 
+    long int i, key, j; 
+    for (i = 1; i < n; i++) { 
+        key = arr[i]; 
+        j = i - 1; 
+  
+
+        while (j >= 0 && arr[j] > key) { 
+            arr[j + 1] = arr[j]; 
+            j = j - 1; 
+        } 
+        arr[j + 1] = key; 
+    } 
+} 
+  
+void selectionSort(long int arr[], long int n) 
+{ 
+    long int i, j, midx; 
+  
+    for (i = 0; i < n - 1; i++) { 
+  
+        midx = i; 
+  
+        for (j = i + 1; j < n; j++) 
+            if (arr[j] < arr[min_idx]) 
+                midx = j; 
+  
+        swap(&arr[midx], &arr[i]); 
+    } 
+} 
+  
+int main() 
+{ 
+    long int n = 10000; 
+    int it = 0; 
+  
+    double tim1[10], tim2[10], tim3[10]; 
+  
+    printf("A_size, Bubble, Insertion, Selection\n"); 
+  
+    while (it++ < 10) { 
+        long int a[n], b[n], c[n]; 
+  
+        for (int i = 0; i < n; i++) { 
+            long int no = rand() % n + 1; 
+            a[i] = no; 
+            b[i] = no; 
+            c[i] = no; 
+        } 
+  
+        clock_t start, end; 
+  
+        start = clock(); 
+        bubbleSort(a, n); 
+        end = clock(); 
+  
+        tim1[it] = ((double)(end - start)); 
+  
+        start = clock(); 
+        insertionSort(b, n); 
+        end = clock(); 
+  
+        tim2[it] = ((double)(end - start)); 
+  
+        start = clock(); 
+        selectionSort(c, n); 
+        end = clock(); 
+  
+        tim3[it] = ((double)(end - start)); 
+  
+        printf("%li, %li, %li, %li\n", 
+               n, 
+               (long int)tim1[it], 
+               (long int)tim2[it], 
+               (long int)tim3[it]); 
+  
+        n += 10000; 
+    } 
+  
+    return 0; 
+} 
