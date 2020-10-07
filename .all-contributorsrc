@@ -1246,6 +1246,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "BRZ-OS",
+      "name": "BRZ-OS",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/72369442?v=4",
+      "profile": "https://github.com/BRZ-OS",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
