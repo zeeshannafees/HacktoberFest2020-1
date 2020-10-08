@@ -1,32 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    		<meta http-equiv="X-UA-Compatible" content="ie-edge" />
-		<title> Here is a project to contribute</title>
-		<link rel="stylesheet" href="style.css" type=css/text>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<header>
-			<h1>Logo</h1>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</header>
-		
-		<main>
-			Lets make a landing page :))
-		</main>
-		
-		<footer>
-		</footer>
-	</body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Eyespy Security | Sri Lanka </title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><img src="./img/logo.png"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#l" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3 text-dark"> Design<br>Install<br>Maintain</h1>
+              <p class="lead text-dark">cameras with full remote access to view from anywhere.</p>
+              <a href="#" class="btn btn-danger btn-lg">Our Packages</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3 ">Affordable Cloud storage for your cameras available now</h1>
+              <p class="lead">Our specialists will come & survey your home with free advice & a no obligation quotation.</p>
+              <a href="#" class="btn btn-primary btn-lg">Our Services</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Best solutions</h1>
+              <p class="lead">Every premises is different, we will survey and give you a bespoke solution.</p>
+              <a href="#" class="btn btn-success btn-lg">Our Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!--HOME ICON SECTION  -->
+  <section id="home-icons" class="py-5">
+      <h2 class="text-center text-primary">Solutions We Offer <i class="fas fa-long-arrow-alt-down  mb-2"></i></h2><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-money-check-alt fa-3x mb-2"></i>
+          <h4>Banking Sectors</h4>
+          <p>Banks are among the few places in the world where security becomes the first necessity than any other.  
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-graduation-cap fa-3x mb-2"></i>
+          <h4>Institutes & Universities</h4>
+          <p>Tight security in any academic atmosphere is mandatory to safeguard both students and the facility.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-hospital fa-3x mb-2"></i>
+          <h4>Hospitality</h4>
+          <p>Hospital, Clinics, Dispensaries, and Pharmacies are all important places that house much valuable equipment, drugs, and lives.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-shopping-cart fa-3x mb-2"></i>
+            <h4>Shopping & Retail</h4>
+            <p>Supermarkets are among the places where supervision and security is vital but yet extremely difficult to be maintained.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+              <i class="fas fa-handshake fa-3x mb-2"></i>
+              <h4>Projects & Events</h4>
+              <p>Eyespy Security also provide CCTV supplies for special projects or events throughout the nation.</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 col-md-4">
+                <br>
+              <h4 class="text-primary">Interested in Our Solutions ?</h4>
+                <p> we will survey and give you a bespoke solution.</p>
+                <a class="btn btn-primary" target="_blank" href="new-arrivals.html">Let's go!</a>
+              </div>
+      </div>
+    </div>
+    </div>
+  </section><hr>
+
+  <!-- HOME HEADING SECTION -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h4 class="d-none d-md-block text-warning">We, Eyespy Security Solutions proudly announce that we are launching the World’s No:1 rated CCTV Brand, “S-PRO” in Sri Lanka.
+               According to IMS Research’s Global Video Surveillance Report 2018 Eyespy is recognized as World’s No.1 supplier of CCTV & Video Surveillance Equipment worldwide.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><hr>
+
+  <!-- INFO SECTION -->
+  <section id="info" class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>CCTV Installations & Maintenance Services</h3>
+          <p>Eyespy Security Solutions is the leading suppliers and installers of high quality CCTV security systems .
+             Keeping your home or business secure is important to us, which is why our qualified team of CCTV specialists design full,
+              bespoke systems that are tailor made to every environment.</p>
+          <a href="about.html" class="btn btn-outline-danger btn-lg">See More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/installer.jpeg" alt="cctv-installer" class="img-fluid ml-5">
+        </div>
+      </div>
+    </div>
+  </section><hr>
+
+  <!-- VIDEO PLAY -->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/watch?v=M3Qd6WPj2C0" data-toggle="modal" data-target="#videoModal">
+              <i class="fas fa-play fa-3x"></i>
+            </a>
+          <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="content">
+    <div class="container">
+
+      <div class="row products">
+        
+
+        <div class="col-lg-12"><br>
+          <h2 class="page-header text-center" id="arrival-header"><span class="text-danger" ><b>Our Products</b></span></h2>
+          <p class="text-center"><small class="text-muted text-center">Last updated 17 hours ago</small></p>
+        </div><br><br><br>
+
+        <div class="col-sm-4 col-lg-4 col-md-4">
+          <div class="thumbnail">
+            <div class="inner">
+              <a href="#"> <img src="./img/cameras/indoor-doome.jpg" height="300" width="300" alt="new-arrivals1"></a>
+            </div>
+            <div class="caption">
+              <h4 class="pull-right">LKR 14000</h4>
+              <h5 ><b>Indoor Dome Camera</b></h5>
+              <p>* 2.1 Megapixel Panasonic sensor<br>
+               * 1080P (1200 TVL)<br>
+              * 2.8~12mm Lens<br>
+              * DC12V</p>
+                
+            </div>
+            <a href="#" class="btn btn-danger btn btn-center">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-lg-4 col-md-4">
+          <div class="thumbnail">
+            <div class="inner">
+              <a href="#" class="text-secondary"><img src="./img/cameras/proof-ir-door.jpg" height="300" width="300"
+                  alt="new-arrivals2"></a>
+            </div>
+            <div class="caption">
+              <h4 class="pull-right">LKR 23790.00</h4>
+              <h5><b>Vandal Proof IR Dome Camera</b> </h5>
+              <p>* 1/2.8” Panasonic 1080P<br>
+                * Support WDR & 3D-DNR<br>
+               * Vandal Resistance<br>
+               * Outdoor</p>
+            </div>
+            <a href="#" class="btn btn-danger btn btn-center">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-lg-4 col-md-4">
+          <div class="thumbnail">
+            <div class="inner">
+              <a href="#"><img src="./img/cameras/ir_dome_camera.jpg" height="300" width="300" alt="new-arrivals3"></a>
+            </div>
+            <div class="caption">
+              <h4 class="pull-right">LKR 32390.00</h4>
+              <h5><b>IR Dome Camera</b> </h5>
+              <p>* 2.1 megapixel Panasonic sensor<br>
+                * Support WDR & 3D-DNR<br>
+               * 2.8~12mm Lens<br>
+              * Up to 30 Meters IR</p>
+            </div>
+            <a href="#" class="btn btn-danger btn btn-center">Buy Now</a>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm-4 col-lg-4 col-md-4">
+          <div class="thumbnail">
+            <div class="inner">
+              <a href="#"><img src="./img/cameras/ir_bullet_camera.jpg" height="300" width="300" alt="new-arrivals4"></a>
+            </div>
+            <div class="caption">
+              <h4 class="pull-right">LKR 43420.00</h4>
+              <h5><b>IR Bullet Camera</b></h5>
+              <p>* 1/2.8” Panasonic 1080P<br>
+                * IR distance 20-30M<br>
+               * OSD menu<br>
+              * IP66 waterproof</p>
+              
+            </div>
+            <a href="#" class="btn btn-danger btn btn-center">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-lg-4 col-md-4">
+          <div class="thumbnail">
+            <div class="inner">
+              <a href="#"><img src="./img/cameras/box_camera.jpg" height="300" width="300" alt="new-arrivals4"></a>
+            </div>
+            <div class="caption">
+              <h4 class="pull-right">LKR 52700.00</h4>
+              <h5><b>Box Camera </b> </h5>
+              <p>* 2.1 Megapixel Panasonic sensor<br>
+                * 1080P (1200TVL<br>
+               * OSD menu<br>
+              * Analogue test output</p>
+            </div>
+            <a href="#" class="btn btn-danger btn btn-center">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4 col-md-4">
+          <br>
+          <br>
+          <h4 class="text-primary">Interested in Our Products ?</h4>
+          <p>Get Affordable Cloud storage for your cameras !</p>
+          <a class="btn btn-primary" target="_blank" href="new-arrivals.html">Let's go!</a>
+        </div>
+
+
+
+
+  </section><br>
+  
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1> Subscribe For Our Newsletter</h1>
+          <p></p>
+          <form class="form-inline justify-content-center">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Name">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Email">
+            <button class="btn btn-primary mb-2">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Eyespy Security | Sri Lanka</p>
+        </div>
+      </div>
+    </div>
+    </footer>
+
+
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    // Video Play
+    $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
+
+  </script>
+</body>
+
 </html>

@@ -1,19 +1,13 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+int factorial(int num){
+    if (num==0)
+        return 1;
+    return num*factorial(num-1);
+}
 
-int main()
-{
-    unsigned int n;
-    unsigned long long factorial = 1;
-
-    cout << "Enter a positive integer: ";
-    cin >> n;
-
-    for(int i = 1; i <=n; ++i)
-    {
-        factorial *= i;
-    }
-
-    cout << "Factorial of " << n << " = " << factorial;    
+int main() {
+    int n;
+    scanf("%d", &n);
+    printf("%d", factorial(n));
     return 0;
 }

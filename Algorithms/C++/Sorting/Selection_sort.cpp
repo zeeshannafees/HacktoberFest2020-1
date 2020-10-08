@@ -1,40 +1,40 @@
-Selection Sort
-The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the
-beginning. The algorithm maintains two subarrays in a given array.
+#include<iostream>
+using namespace std;
 
-1) The subarray which is already sorted.
-2) Remaining subarray which is unsorted.
+void selectionSort(int a[],int n){
+    for (int i = 0; i < n-1; i++) //-this for loop is for 'passes'
+    { 
+        int min = i; //- considering the first element in array as minimum 
 
-In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
+        for (int j = i+1; j < n; j++) //-this will compare that element with others to find minimum element(searching!)
+        {
+            if(a[j] < a[min]){
+                min = j;  //-updating min element
+            }
+        }
+        if(min!=i){
+            //-swapping
+            int temp = a[i];
+            a[i] = a[min];
+            a[min] = temp;
+        }        
+    }
 
-Time Complexity: O(n2) as there are two nested loops.
-
-Auxiliary Space: O(1)The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.
-
-#include <bits/stdc++.h> 
-using namespace std; 
-
-void swap(int *xp, int *yp)  
-{  
-    int temp = *xp;  
-    *xp = *yp;  
-    *yp = temp;  
-}  
-  
-void selectionSort(int arr[], int n)  
-{  
-    int i, j, min_idx;  
-  
-    // One by one move boundary of unsorted subarray 
-    for (i = 0; i < n-1; i++)  
-    {  
-        // Find the minimum element in unsorted array
-        min_idx = i;  
-        for (j = i+1; j < n; j++)  
-        if (arr[j] < arr[min_idx])  
-            min_idx = j;  
-  
-        // Swap the found minimum element with the first element  
-        swap(&arr[min_idx], &arr[i]);  
-    }  
+    //-printing the sorted array
+    cout<<"Sorted array: \n";
+    for (int i = 0; i < n; i++)
+    {
+        cout<<"["<<a[i]<<"]"<<" ";
+    }    
 }
+
+int main()
+{
+    int arr[] = {4,5,7,98,23,723,88};
+    int size = sizeof(arr)/sizeof(int);
+    selectionSort(arr,size);
+    return 0;
+}
+
+//  Best case : O(n^2)
+//  Worst case : O(n^2)
